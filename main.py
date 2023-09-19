@@ -9,7 +9,7 @@ car_cascade = cv2.CascadeClassifier('haarcascade_car.xml')
 detected_cars = []
 
 # Otwórz strumień wideo
-ip_camera_address = 'http://192.168.100.33:8081/video'
+ip_camera_address = 'IP_KAMERY'
 cap = cv2.VideoCapture(ip_camera_address)
 cap.set(3, 640)
 cap.set(4, 480)
